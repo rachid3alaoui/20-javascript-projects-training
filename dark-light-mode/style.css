@@ -44,7 +44,7 @@ section {
 
 h1 {
   font-size: 100px;
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
 
 h2 {
@@ -83,4 +83,26 @@ a:focus {
 /* Home Section */
 .title-group {
   text-align: center;
+}
+
+/* About Section */
+
+.about-container {
+  display: flex;
+}
+
+.image-container {
+  text-align: center;
+  border: 1px solid var(--secondary-color);
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin-right: 25px;
+  width: auto;
+  background-color: var(--background);
+  box-shadow: var(--box-shadow);
+}
+
+img {
+  height: 300px;
+  width: 300px;
 }
