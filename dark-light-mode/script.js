@@ -19,9 +19,9 @@ function toggleDarkLighMode(isDark) {
   textBox.style.backgroundColor = isDark
     ? 'rgb(255 255 255 / 50%)'
     : 'rgb(0 0 0 / 50%)'
-  toggleIcon.children[0].textContent = isDark ? 'Dark Mode' : 'Light Mode'
+  toggleIcon.children[0].textContent = isDark ? 'Light Mode' : 'Dark Mode'
   isDark
-    ? toggleIcon.children[1].classList.replace('fa-sun', 'fa-moon')
+    ? toggleIcon.children[1].classList.replace('fa-moon', 'fa-sun')
     : toggleIcon.children[1].classList.replace('fa-sun', 'fa-moon')
   isDark ? imageMode('dark') : imageMode('light')
 }
