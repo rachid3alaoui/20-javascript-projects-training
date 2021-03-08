@@ -62,7 +62,7 @@ nav {
   letter-spacing: 2px;
   padding: 25px;
   width: 100vw;
-  background: rgb(255 255 255 / 50%);
+  background: rgb(255 255 255 / 72%);
 }
 
 a {
@@ -172,3 +172,27 @@ p {
   margin: 0;
   line-height: 25px;
 }
+
+/* Contact Section */
+
+.social-icons {
+  width: 75%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.fab {
+  cursor: pointer;
+  margin-right: 30px;
+
+  font-size: 100px;
+  color: var(--primary-color);
+}
+
+.fab:hover {
+  color: var(--on-background);
+}
+
+/* Dark & Light Mode Switch */
